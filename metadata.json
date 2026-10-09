@@ -1,0 +1,8 @@
+{
+  "name": "Remix IMAGINE CONCRETE LMR",
+  "description": "IMAGINE CONCRETE LMR is an interactive, web-based engineering intelligence platform designed to streamline concrete mix proportioning, compressive strength forecasting, and empirical data analysis. Powered by machine learning and modern WebGL graphics, the application bridges theoretical concrete technology with data-driven predictive modeling. It allows civil engineers, researchers, and students to simulate standard compressive testing, explore multi-variable binder interactions, and reverse-engineer mix proportions according to international design standards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

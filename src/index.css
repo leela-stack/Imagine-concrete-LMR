@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-concrete-50: #f8f9fa;
+  --color-concrete-100: #f1f3f5;
+  --color-concrete-200: #e5e7eb;
+  --color-concrete-300: #d1d5db;
+  --color-concrete-400: #9ca3af;
+  --color-concrete-700: #374151;
+  --color-concrete-800: #1f2937;
+  --color-concrete-900: #111827;
+  --color-safety-orange: #ff5500;
+  --color-safety-orange-hover: #e04b00;
+}
+
+body {
+  background-color: #eceff1;
+  color: #111827;
+  font-family: var(--font-sans);
+  background-image: 
+    radial-gradient(#9ca3af 0.75px, transparent 0.75px),
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 24px 24px, 48px 48px;
+}
+
+/* Brutalist Industrial Containers */
+.brutalist-card {
+  background-color: #ffffff;
+  border: 2px solid #111827;
+  box-shadow: 5px 5px 0px 0px #111827;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.brutalist-card:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 7px 7px 0px 0px #111827;
+}
+
+.brutalist-card-dark {
+  background-color: #111827;
+  color: #f9fafb;
+  border: 2px solid #111827;
+  box-shadow: 5px 5px 0px 0px #ff5500;
+}
+
+.brutalist-button-primary {
+  background-color: #ff5500;
+  color: #ffffff;
+  border: 2px solid #111827;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 4px 4px 0px 0px #111827;
+  transition: all 0.15s ease-in-out;
+}
+
+.brutalist-button-primary:hover {
+  background-color: #e04b00;
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px 0px #111827;
+}
+
+.brutalist-button-primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #111827;
+}
+
+.brutalist-button-secondary {
+  background-color: #ffffff;
+  color: #111827;
+  border: 2px solid #111827;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 4px 4px 0px 0px #111827;
+  transition: all 0.15s ease-in-out;
+}
+
+.brutalist-button-secondary:hover {
+  background-color: #f3f4f6;
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px 0px #111827;
+}
+
+.hazard-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    #111827,
+    #111827 12px,
+    #ff5500 12px,
+    #ff5500 24px
+  );
+}
+
+.raw-concrete-grid {
+  background-color: #e2e8f0;
+  background-image: linear-gradient(#cbd5e1 1px, transparent 1px), linear-gradient(90deg, #cbd5e1 1px, transparent 1px);
+  background-size: 20px 20px;
+}
